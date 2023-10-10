@@ -6,7 +6,8 @@ import java.sql.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         /*CharacterController characterController = new CharacterController(new CharacterView());
-        characterController.fetchCharacterInfo();*/
+        characterController.fetchCharacterInfo();
+        characterController.insertCharacterInfoIntoDatabase(characterInfo);*/
 
         String url = "jdbc:mysql://localhost:3306/marvel";
         String usuario = "root";
